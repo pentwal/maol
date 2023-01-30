@@ -1,0 +1,1 @@
+var ScrollFix=function(a){var b;(a=a||document.querySelector(a))&&a.addEventListener("touchstart",function(){b=a.scrollTop;0>=b&&(a.scrollTop=1);b+a.offsetHeight>=a.scrollHeight&&(a.scrollTop=a.scrollHeight-a.offsetHeight-1)},!1)};

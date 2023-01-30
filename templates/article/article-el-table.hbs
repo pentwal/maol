@@ -1,0 +1,55 @@
+<div class="article-table-container overthrow-xy">
+	<table class="article-table {{#if highlightFirstColumn}}highlight-first-column{{/if}}"{{#if elementMeta }}data-element-meta="{{{elementMeta}}}"{{/if}}>
+		{{#if headerRows}}
+		<thead>
+			{{#each headerRows}}
+        <tr>
+        {{#each this}}
+          <th 
+          {{#if cellMeta }}
+            class="has-metadata"
+            data-cell-meta="{{{cellMeta}}}"
+          {{/if}} 
+          {{#if colspan}}
+            colspan="{{colspan}}"
+          {{/if}}
+          {{#if rowspan}} 
+            rowspan="{{rowspan}}"
+          {{/if}}>
+          {{{data}}}
+          {{#if cellMeta }}
+            <span class="cell-metadata-open">+</span>
+          {{/if}}
+          </th>
+        {{/each}}
+        </tr>
+			{{/each}}
+		</thead>
+		{{/if}}
+
+		<tbody>
+		{{#each bodyRows}}
+      <tr>
+      {{#each this}}
+        <td 
+        {{#if cellMeta }}
+          class="has-metadata"
+          data-cell-meta="{{{cellMeta}}}"
+        {{/if}} 
+        {{#if colspan}}
+          colspan="{{colspan}}"
+        {{/if}}
+        {{#if rowspan}} 
+          rowspan="{{rowspan}}"
+        {{/if}}>
+        {{{data}}}
+        {{#if cellMeta }}
+          <span class="cell-metadata-open">+</span>
+        {{/if}}
+        </td>
+      {{/each}}
+      </tr>
+		{{/each}}
+		</tbody>
+	</table>
+</div>

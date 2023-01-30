@@ -1,0 +1,75 @@
+{
+	"common": {
+		"default-browser-title": "MAOLs digitabeller (förnyad 2020)"
+	},
+	"article": {
+    "article-browser-title": "__articletitle__ | MAOLs digitabeller (förnyad 2020)",
+    "page": "Sidan",
+    "tooltip": "Kopierad"
+	},
+	"settings": {
+		"title": "Inställningar",
+		"text_size_title": "Textstorlek",
+		"text_size_small_title": "Liten",
+		"text_size_medium_title": "Medel",
+		"text_size_large_title": "Stor",
+		"lang_title": "Språk",
+		"lang_default_title": "Suomi",
+		"lang_swedish_title": "Svenska",
+		"anim_title": "Övergångsanimationer",
+		"anim_enabled_title": "På",
+		"anim_disabled_title": "Av",
+		"bookmarks_order_by_title": "Sortera bokmärken",
+		"bookmarks_order_by_alphabet_title": "Alfabetiskt",
+		"bookmarks_order_by_category_title": "Enligt ämne"
+	},
+	"bookmarks": {
+		"title": "Bokmärken",
+		"no_bookmarks_text": "Inga bokmärken",
+		"order_by_alphabet_title": "Alfabetiskt",
+		"order_by_category_title": "Enligt ämne"
+	},
+	"listnav": {
+		"delete_children_text": "Ta bort (__deletecount__)"
+	},
+	"menu": {
+		"no_articles_in_category": ""
+	},
+	"recent_articles": {
+		"title": "Senast besökta sidor",
+		"no_recent_articles_text": "Inga besökta sidor"
+	},
+	"search": {
+		"title": "Sökresultat",
+		"placeholder": "Sök...",
+		"no_results_text": "Inga träffar",
+		"show_all_results_text": "Visa resten av träffarna",
+		"show_less_results_text": "Göm resten av träffarna"
+	},
+	"help": {
+		"title": "Hjälp",
+		"help_splash_title": "Bruksanvisning",
+		"info_splash_title": "Om applikationen"
+	},
+	"help_splash": {
+		"maol_text_word_1": "MAOLs ",
+		"maol_text_word_2": "digitabeller",
+		"language_title": "Valitse kieli | Välj språk",
+		"language_description": "I den här applikationen har du tillgång till både de finska och svenska tabellerna. Du kan när som helst byta språk via applikationens inställningar.",
+		"language_button_text": "Börja på svenska",
+		"nav_help_text_header": "Du kan röra dig sidlänges på sidan.",
+		"nav_help_text_footer": "",
+		"nav_help_button_text": "Öppna MAOLs digitabeller",
+
+		"left_topbar_help_text_header": "I den övre balken till vänster hittar du <ul class='help-splash-list'><li>innehållsförteckningen<img class='help-splash-symbol-img' src='img/retina/toc-inactive.png' />,</li><li>inställningarna<img class='help-splash-symbol-img' src='img/retina/settings-inactive.png' />och</li><li>sökfunktionen<img class='help-splash-symbol-img' src='img/retina/search-inactive.png' />.</li></ul> I innehållsförteckningen finns samma rubriker som i den tryckta boken.",
+		"left_topbar_help_text_footer": "",
+		"left_topbar_help_button_text": "Fortsätt",
+
+		"right_topbar_help_text_header": "I den övre balken till höger kan du<ul class='help-splash-list'><li>lägga till<img class='help-splash-symbol-img' src='img/retina/bookmark-add.png' />,</li><li>bläddra i<img class='help-splash-symbol-img' src='img/retina/bookmark-menu.png' />och</li><li>ändra<img class='help-splash-symbol-img' src='img/retina/pen-inactive.png' />bokmärken.</li></ul>Här sparas också de senast besökta sidorna.",
+		"right_topbar_help_text_footer": "",
+		"right_topbar_help_button_text": "Fortsätt"
+	},
+	"info_splash": {
+		"close_button_text": "Tillbaka till applikationen"
+	}
+}

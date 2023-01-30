@@ -1,0 +1,1 @@
+Sydney["platform-android"]=function(){var a;return{init:function(){if(a=-1<navigator.userAgent.toLowerCase().indexOf("android"))Sydney.globals.heavyAnimationsEnabled=!1,Sydney.globals.forceScrollPolyfill=!0,-1<navigator.userAgent.toLowerCase().indexOf("chrome")&&(Sydney.globals.forceScrollPolyfill=!1)},getIsAndroid:function(){return a}}}();

@@ -1,0 +1,75 @@
+{
+	"common": {
+		"default-browser-title": "MAOL-digitaulukot (uudistettu 2020)"
+	},
+	"article": {
+    "article-browser-title": "__articletitle__ | MAOL-digitaulukot (uudistettu 2020)",
+    "page": "Sivu",
+    "tooltip": "Kopioitu"
+	},
+	"settings": {
+		"title": "Asetukset",
+		"text_size_title": "Tekstin koko",
+		"text_size_small_title": "Pieni",
+		"text_size_medium_title": "Keskikokoinen",
+		"text_size_large_title": "Iso",
+		"lang_title": "Kieli",
+		"lang_default_title": "Suomi",
+		"lang_swedish_title": "Svenska",
+		"anim_title": "Siirtymäanimaatiot",
+		"anim_enabled_title": "Käytössä",
+		"anim_disabled_title": "Poissa käytöstä",
+		"bookmarks_order_by_title": "Kirjanmerkkien järjestys",
+		"bookmarks_order_by_alphabet_title": "Aakkosittain",
+		"bookmarks_order_by_category_title": "Aihealueittain"
+	},
+	"bookmarks": {
+		"title": "Kirjanmerkit",
+		"no_bookmarks_text": "Ei kirjanmerkkejä.",
+		"order_by_title": "Kirjanmerkkien järjestys",
+		"order_by_alphabet_title": "Aakkosittain",
+		"order_by_category_title": "Aihealueittain"
+	},
+	"listnav": {
+		"delete_children_text": "Poista (__deletecount__)"
+	},
+	"menu": {
+		"no_articles_in_category": "Ei artikkeleita tässä kategoriassa."
+	},
+	"recent_articles": {
+		"title": "Viimeksi selatut",
+		"no_recent_articles_text": "Ei viimeksi selattuja artikkeleja."
+	},
+	"search": {
+		"title": "Hakutulokset",
+		"placeholder": "Hae...",
+		"no_results_text": "Ei hakutuloksia",
+		"show_all_results_text": "Näytä loput tulokset",
+		"show_less_results_text": "Piilota loput tulokset"
+	},
+	"help": {
+		"title": "Ohjeet",
+		"help_splash_title": "Käyttöohjeet",
+		"info_splash_title": "Tietoja sovelluksesta"
+	},
+	"help_splash": {
+		"maol_text_word_1": "MAOL",
+		"maol_text_word_2": "-digitaulukot",
+		"language_title": "Valitse kieli | Välj språk",
+		"language_description": "Käytössäsi on sekä suomen- että ruotsinkielinen taulukkoaineisto. Voit vaihtaa kielen sovelluksen asetuksista milloin vain.",
+		"language_button_text": "Aloita suomeksi",
+
+		"nav_help_text_header": "Voit liikkua näkymässä sivusuunnassa.",
+		"nav_help_text_footer": "",
+		"nav_help_button_text": "Avaa MAOL-digitaulukot",
+		"left_topbar_help_text_header": "Yläpalkissa vasemmalla ovat <ul class='help-splash-list'><li>sisällysluettelo<img class='help-splash-symbol-img' src='img/retina/toc-inactive.png' />,</li><li>asetukset<img class='help-splash-symbol-img' src='img/retina/settings-inactive.png' />ja</li><li>hakutoiminto<img class='help-splash-symbol-img' src='img/retina/search-inactive.png' />.</li></ul> Sisällysluettelo sisältää samat otsikot kuin kirjassa.",
+		"left_topbar_help_text_footer": "",
+		"left_topbar_help_button_text": "Jatka",
+		"right_topbar_help_text_header": "Yläpalkissa oikealla ovat toiminnot kirjanmerkin <ul class='help-splash-list'><li>lisäämiseen<img class='help-splash-symbol-img' src='img/retina/bookmark-add.png' />,</li><li>katselemiseen<img class='help-splash-symbol-img' src='img/retina/bookmark-menu.png' />ja</li><li>muokkaamiseen<img class='help-splash-symbol-img' src='img/retina/pen-inactive.png' />.</li></ul>Kirjanmerkkien lisäksi löydät myös viimeksi selatut sisällöt.",
+		"right_topbar_help_text_footer": "",
+		"right_topbar_help_button_text": "Jatka"
+	},
+	"info_splash": {
+		"close_button_text": "Palaa sovellukseen"
+	}
+}

@@ -1,0 +1,2 @@
+Sydney["platform-wp"]=function(){var a=!1;return{init:function(){if(a=null!==navigator.userAgent.match(/Windows Phone/i)){if("-ms-user-select"in document.documentElement.style&&navigator.userAgent.match(/IEMobile\/10\.0/)){var b=document.createElement("style");b.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));document.getElementsByTagName("head")[0].appendChild(b)}$("body").on("selectstart",function(a){a.preventDefault()},!1);$("html").removeClass("csstransforms3d")}},
+getIsWindowsPhone:function(){return a}}}();

@@ -1,0 +1,16 @@
+<li class="list-item {{class}}{{#if isActive}} active{{/if}}{{#if isHidden}} hidden{{/if}}{{#if isRemovable}} removable{{/if}}" {{#each props}}data-{{@key}}="{{this}}"{{/each}}>
+	<div class="list-item-button">{{{title}}}{{#if sidetext}}<div class="list-item-sidetext"> {{{sidetext}}}</div>{{/if}}{{#if childrenAreRemovable}}<button class="children-delete-button hidden"></button>{{/if}}</div>
+	{{#if children}}
+	<ul class="expanded-list-items{{#unless isActive}} list-hidden{{/unless}}">
+		{{#each children}}
+		{{> list-nav-item}}
+		{{/each}}
+	</ul>
+	{{else}}
+	{{#if placeholder}}
+	<ul class="expanded-list-items placeholder{{#unless isActive}} list-hidden{{/unless}}">
+	{{#with placeholder}}{{> list-nav-item}}{{/with}}
+	</ul>
+	{{/if}}
+	{{/if}}
+</li>
